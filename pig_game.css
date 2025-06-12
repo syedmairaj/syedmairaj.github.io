@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Iceland&family=Poppins:wght@100&family=Roboto:wght@300;400&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background: linear-gradient(to right, rgb(240, 99, 99), rgb(139, 77, 139));
+}
+.new_game {
+  position: absolute;
+  /* display: inline-block; */
+  margin-top: -445px;
+  margin-left: 620px;
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: white;
+  text-align: center;
+  /* font-size: 15px; */
+  font-weight: bold;
+  text-align: center;
+  border: none;
+}
+.new_game:active {
+  transform: translate(1%, -3px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+.refresh_icon {
+  display: inline-block;
+  position: absolute;
+  max-width: 2%;
+  max-height: 2%;
+  margin-left: 658px;
+  margin-top: -443px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.Main_player1 {
+  position: relative;
+  display: inline-block;
+  width: 400px;
+  height: 500px;
+  background-color: rgb(243, 164, 177);
+  margin-top: 80px;
+  margin-left: 280px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  text-align: center;
+}
+.active_player1 {
+  background-color: rgb(243, 164, 177);
+}
+.active_player2 {
+  background-color: rgb(192, 159, 190);
+}
+
+.Main_player2 {
+  position: absolute;
+  display: inline-block;
+  width: 400px;
+  height: 500px;
+  background-color: rgb(192, 159, 190);
+  margin-top: 80px;
+  margin-left: -4.2px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+}
+.player1_sec {
+  display: inline-block;
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 50px;
+}
+
+.player2_sec {
+  position: absolute;
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 50px;
+}
+
+#dice_player--0 {
+  display: inline-block;
+  font-size: 60px;
+  color: crimson;
+}
+
+#dice_player--1 {
+  display: inline-block;
+  font-size: 60px;
+  color: crimson;
+}
+.score_section1 {
+  width: 180px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: rgb(243, 67, 67);
+  display: inline-block;
+  margin-top: 340px;
+  margin-right: -5px;
+  color: white;
+}
+
+.btn_score_player1 {
+  display: inline-block;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.score_section2 {
+  width: 180px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: rgb(243, 67, 67);
+  display: inline-block;
+  margin-top: 340px;
+  margin-right: -30px;
+  color: white;
+}
+
+.btn_score_player2 {
+  display: inline-block;
+  margin-top: 20px;
+}
+.dice {
+  font-size: 25px;
+}
+.dice_icon {
+  display: inline-block;
+  position: absolute;
+  max-width: 3%;
+  max-height: 3%;
+  margin-left: 670px;
+  margin-top: -105px;
+  image-resolution: from-image;
+  image-resolution: 300dpi;
+  image-resolution: from-image 300dpi;
+  /* cursor: pointer; */
+}
+.dice_roll {
+  /* display: inline-block; */
+  position: absolute;
+  margin-top: 245px;
+  margin-left: -270px;
+  font-size: 12px;
+  font-weight: bold;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  border: none;
+}
+.dice_roll:active {
+  transform: translate(-2%, 3px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+.txt {
+  text-align: center;
+}
+.hold {
+  display: inline-block;
+  position: absolute;
+  margin-top: 320px;
+  margin-left: -270px;
+  font-size: 12px;
+  font-weight: bold;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  border: none;
+}
+.hold:active {
+  transform: translate(1%, 3px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+.hand_icon {
+  display: inline-block;
+  position: absolute;
+  max-width: 4%;
+  max-height: 4%;
+  margin-left: 638px;
+  margin-top: -43px;
+  image-resolution: from-image;
+  image-resolution: 300dpi;
+  image-resolution: from-image 300dpi;
+  cursor: pointer;
+}
+.dice_result {
+  position: absolute;
+  /* display: inline-block; */
+  margin-top: -340px;
+  margin-left: 660px;
+}
+.dice_pic {
+  display: inline-block;
+  position: absolute;
+  width: 8%;
+  height: 8%;
+  margin-top: -340px;
+  margin-left: 640px;
+}
+
+/* .player--winner {
+  background-color: #2f2f2f;
+} */
+.hidden {
+  display: none;
+}

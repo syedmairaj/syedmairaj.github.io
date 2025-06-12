@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pig Game</title>
+    <link rel="stylesheet" href="./pig_game.css"
+  </head>
+  <body>
+    <main>
+      <div class="Main_player1 player--winner active_player1">
+        <div class="player1_sec active1">
+          <h1 class="hd_player1 winner">PLAYER 1</h1>
+          <br />
+          <br />
+          <label id="dice_player--0">0</label>
+        </div>
+        <div class="score_section1 active2">
+          <label class="btn_score_player1 active3">Current</label><br />
+          <br />
+          <label class="dice score1" id="current_score--0">0</label>
+        </div>
+      </div>
+
+      <div class="Main_player2 player--winner">
+        <div class="player2_sec">
+          <h1 class="hd_player2 winner">PLAYER 2</h1>
+          <br />
+          <br />
+          <label id="dice_player--1">0</label>
+          <button class="dice_roll">ROLL DICE</button>
+
+          <button class="hold">HOLD</button>
+        </div>
+        <div class="score_section2">
+          <label class="btn_score_player2">Current</label><br />
+          <br />
+          <label class="dice score2" id="current_score--1">0</label>
+        </div>
+      </div>
+
+      <div><img class="dice_icon" src="/dice/images/dice.png"</div>
+      <div><img class="hand_icon" src="/dice/images/hand2.png"</div>
+      <div><img class="refresh_icon" src="/dice/images/refresh.png"</div>
+
+      <button class="new_game">New Game</button>
+      <label class="new_game_box"></label>
+      <img class="dice_pic hidden" src="dice-1.png" />
+      <label class="dice_result"></label>
+    </main>
+    <script src="./pig_game.js"></script>
+  </body>
+</html>
